@@ -20,7 +20,7 @@ class ImageGalleryItem extends Component {
 
     return (
         <li onClick={ this.clickItem } className={s.imageGalleryItem }>
-            <img src= { this.props.url } alt='image' className={s.imageGalleryItemImage }/>
+            <img src= { this.props.url } alt='img' className={s.imageGalleryItemImage }/>
         </li>
     )};
 };

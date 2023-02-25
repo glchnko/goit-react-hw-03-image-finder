@@ -10,7 +10,7 @@ class Modal extends Component {
     
     closeModal = ({target, currentTarget, key}) => {
 
-        if (target === currentTarget || key === 'Escape') {
+        if (target === currentTarget || key === 'Esc') {
           this.props.onClick();
         }
     }
